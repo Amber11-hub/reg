@@ -1,0 +1,36 @@
+/* universal selector  */
+    * {
+         background-color: peachpuff;
+    }
+/* element selector  */
+h1 {
+    background-color: black;
+    color: orange;
+}
+/* class selector */
+.biodata {
+       background-color: grey;
+}
+/* id selector  */
+#Dreams {
+    background-color:orange;
+}
+/* child selector */ 
+li>a {
+     color: tomato;
+}
+/* descendent selector or grandchild selector */
+ p i {
+     color: teal;
+     background-color: yellow;
+ }
+  /* sibling selector or direct selector */
+  h4+p{
+       color: violet;
+       background-color: brown;
+  }
+  /* genral sibling selector  */
+   h5~p {
+       background-color: darkgreen;
+        color: darkkhaki;
+   }
